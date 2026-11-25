@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Днём Рождения, Коля! ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+    <!-- Фоновая музыка -->
+    <audio id="bgMusic" src="song.mp3" loop></audio>
+    
+    <!-- Кнопка паузы/включения музыки в углу -->
+    <button id="musicToggle" class="music-btn hidden" title="Включить/выключить музыку">🎵 Пауза</button>
+
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <main class="card">
+        <div class="badge">Сегодня твой день ✨</div>
+        <h1>С Днём Рождения, Коля!</h1>
+        
+        <p class="subtitle">
+            Любимый, спасибо, что делаешь каждый мой день ярче, теплее и счастливее. 
+            Пусть сбываются все твои самые смелые мечты!
+        </p>
+
+        <div class="reasons-box">
+            <h3>Несколько причин, почему я тебя обожаю:</h3>
+            <ul class="reasons-list">
+                <li>❤️ За твою самую красивую улыбку</li>
+                <li>🤗 За то, что с тобой всегда спокойно и уютно</li>
+                <li>😂 За твоё чувство юмора, которое спасает в любой день</li>
+                <li>🌟 За то, что ты — моё настоящее счастье</li>
+            </ul>
+        </div>
+
+        <button id="surpriseBtn" class="btn">Нажми, чтобы открыть сюрприз 🎁</button>
+
+        <div id="secretMessage" class="secret hidden">
+            <h2>Коля, ты — моё главное счастье! 💖</h2>
+            <p>
+                Желаю тебе крепкого здоровья, неиссякаемой энергии и больших побед.
+            </p>
+        </div>
+    </main>
+
+    <script src="https://jsdelivr.net"></script>
+    <script src="script.js"></script>
+</body>
+</html>
