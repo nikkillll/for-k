@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (secretMessage) {
                 secretMessage.classList.remove('hidden');
             }
-            surpriseBtn.innerText = 'С Днём Рождения, Коля! 🎉';
+            surpriseBtn.innerText = 'С Днём Рождения! 🎉';
 
             // 2. Запускаем музыку (если файл song.mp3 есть в папке)
             if (bgMusic) {
